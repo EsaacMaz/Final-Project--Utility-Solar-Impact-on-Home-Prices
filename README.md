@@ -1,26 +1,33 @@
 # Final-Project--Utility-Solar-Impact-on-Home-Prices
-Final Project for ENV 617 - Samantha Almonacid, Alberto Andrade, Esaac Mazengia, Elana Shi
+README
 
-As the United States moves towards decarbonizing the energy system, utility scale solar will become more widespread due to its affordability and production of minimal-to-zero emissions. [The Solar Energy Industries Association](https://www.seia.org/) finds that there are more than 37,000 megawatts of utility-scale solar projects in operation, with another 112,000 megawatts being developed.
+**Utility Solar Development and the Implications on Nearby Home Value Growth Rates** 
 
-Given the growing prominence of utility scale solar, our group wanted to better understand the geographic context of the communities that they are sited near and explore utility scale solar's impacts on the housing market. We seek to answer the following question:
+**_Final Project for ENV 617 - Samantha Almonacid, Alberto Andrade, Esaac Mazengia, Elana Shi_**
 
-**Does the existence of nearby (1 mile) utility scale solar impact property values at the neighborhood level?**
 
-To answer this question, we will use the following data:
+**Project Summary:**
+This project investigates the impact of nearby utility-scale solar installations (1 mile distance) on property values at the neighborhood level in metro areas in the United States. With the increasing prevalence of utility-scale solar due to its affordability and minimal emissions, understanding its effects on the housing market is crucial for future policymaking. The analysis utilizes spatial and statistical methods to explore whether the existence of utility-scale solar within a one-mile radius influences property value growth rates.
 
-**United States Large-Scale Solar Photovoltaic Database (USPVDB)**
-This database contains information on the locations and boundaries of U.S. PV facilities with a capacity of 1 megawatt or greater.
-https://eerscmap.usgs.gov/uspvdb/assets/data/uspvdbSHP.zip
+**Files in Repository:**
+
+Utility_Solar_and_Home_Prices.ipynb: Jupyter Notebook containing Python code for data analysis.
+README.md: Markdown file providing an overview of the project, its goals, and the files in the repository.
+
+**Data Citations:**
+
+**United States Large-Scale Solar Photovoltaic Database (USPVDB):** 
+
+Fujita, K.S., Ancona, Z.H., Kramer, L.A., Straka, M., Gautreau, T.E., Garrity, C.P., Robson, D., Diffendorfer, J.E., and Hoen, B., 2023, United States Large-Scale Solar Photovoltaic Database v1.0 (November, 2023): U.S. Geological Survey and Lawrence Berkeley National Laboratory data release, https://doi.org/10.5066/P9IA3TUS.
 
 **Zillow Home Value Index (ZHVI)**
 This data presents the typical values for homes within the 65th to 95th percentile range for a given region. The data is smoothed and seasonally adjusted, and does not account for inflation.
-https://files.zillowstatic.com/research/public_csvs/zhvi/Neighborhood_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv?t=1712011928
+Zillow. (2023). Zillow Home Value Index (ZHVI). Zillow. Retrieved from https://files.zillowstatic.com/research/public_csvs/zhvi/Neighborhood_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv?t=1712011928.
 
 **Neighborhood Boundaries**
 This data contains boundaries for 17,000 Zillow neighborhoods in the United States.
-https://edg.epa.gov/data/PUBLIC/OEI/ZILLOW_NEIGHBORHOODS/Zillow_Neighborhoods.zip
+Environmental Protection Agency. (2018). Zillow Neighborhoods. Retrieved from https://edg.epa.gov/data/PUBLIC/OEI/ZILLOW_NEIGHBORHOODS/Zillow_Neighborhoods.zip. 
 
 **United States Boundaries**
 This data contains boundaries for all states in the United States.
-https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_20m.zip
+United States Census. (2018). Cartographic Boundary States 20m.  Retrieved from https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_20m.zip
